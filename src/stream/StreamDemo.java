@@ -7,6 +7,7 @@ public class StreamDemo {
 
     public static void main(String[] args) {
 
+        System.out.println();
         Project project = new Project();
         project.setId(101);
         project.setName("Test Project");

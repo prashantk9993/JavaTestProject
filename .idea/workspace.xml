@@ -5,86 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaTestProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/IteratorRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ConncurrentModiExceptionIteratorRemoveUsingList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ForLoopRemove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/AbstractDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Alfa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/ArrayListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/AtomThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/AtomicDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/BarrierAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Beta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/CountDownLatchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/CyclicBarrierDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/DecrementThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/DqueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Employee2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Employee3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/ExchangerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/HashSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/HashSetDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Hypot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/IncrementThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Lamb1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/LinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/ListNull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/LockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/LockThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/MakeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/MapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/MapEquals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/ModDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/MultipleDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/MyThreadCB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/NavigableSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/PeekDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/PrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/QueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/SeconfHighestNumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/SemaphoreDemno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Shared.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Shared1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Shared2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/SimpleExecutorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/SortEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/SortedSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/TempInterface1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/TestInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/TestLambda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/TestStatic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all/UseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/CountCharsInWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/TestInterview.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/TransposeRowToColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/ValidateMultiParenthesisUSingStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interview/ValidateParenthesisUSingStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/stream/Employee4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/stream/Project.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/IteratorRemove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/IteratorRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/IteratorRemove.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,7 +48,51 @@
     <property name="project.structure.side.proportion" value="0.21149425" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConncurrentModiExceptionIteratorRemoveUsingList">
+    <configuration name="ConncurrentModiExceptionIteratorRemoveUsingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ConncurrentModiExceptionIteratorRemoveUsingList" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoopRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ForLoopRemove" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.IteratorRemove" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.StreamDemo" />
       <module name="JavaTestProject" />
@@ -127,6 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConncurrentModiExceptionIteratorRemoveUsingList" />
+        <item itemvalue="Application.ForLoopRemove" />
+        <item itemvalue="Application.IteratorRemove" />
         <item itemvalue="Application.StreamDemo" />
       </list>
     </recent_temporary>

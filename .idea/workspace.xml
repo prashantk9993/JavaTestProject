@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="" />
+    <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaTestProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/IteratorRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/AbstractDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Alfa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/ArrayListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/AtomThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/AtomicDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/BarrierAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Beta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/CallableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/CountDownLatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/CyclicBarrierDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/DecrementThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/DqueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Employee2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Employee3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/ExchangerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/HashSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/HashSetDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Hypot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/IncrementThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Lamb1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/LinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/ListNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/LockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/LockThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/MakeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/MapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/MapEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/ModDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/MultipleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/MyThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/MyThreadCB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/NavigableSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/PeekDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/PrimeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/QueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/SeconfHighestNumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/SemaphoreDemno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Shared.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Shared1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Shared2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/SimpleExecutorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/SortEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/SortedSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/TempInterface1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/TestInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/TestLambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/TestStatic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/all/UseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/CountCharsInWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/TestInterview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/TransposeRowToColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/ValidateMultiParenthesisUSingStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview/ValidateParenthesisUSingStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stream/Employee4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stream/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stream/StreamDemo4.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,22 +89,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2owIJgQyUVqnJoRHqsUF4UCyhqm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Prashant/workspace/JavaTestProject"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21149425" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.StreamDemo" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,6 +140,29 @@
       <option name="presentableId" value="Default" />
       <updated>1731774140953</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;test commit&quot;">
+      <created>1733293399537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733293399537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;test commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;test commit&quot;" />
   </component>
 </project>

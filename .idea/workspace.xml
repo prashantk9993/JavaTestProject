@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/dsa/MaximumMinimumArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/FindPairOfSumNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +50,13 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumMinimumArrayDemo">
-    <configuration name="ConncurrentModiExceptionIteratorRemoveUsingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.ConncurrentModiExceptionIteratorRemoveUsingList" />
+  <component name="RunManager" selected="Application.FindPairOfSumNumbers">
+    <configuration name="FindMissingNumberInArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.FindMissingNumberInArrays" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMissingNumberInArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.FindMissingNumberInArrays" />
+    <configuration name="FindPairOfSumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.FindPairOfSumNumbers" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPairOfSumNumbers" />
         <item itemvalue="Application.MaximumMinimumArrayDemo" />
         <item itemvalue="Application.RemoveDuplicateFromArray" />
         <item itemvalue="Application.FindMissingNumberInArrays" />
         <item itemvalue="Application.TransposeRowToColumn" />
-        <item itemvalue="Application.ConncurrentModiExceptionIteratorRemoveUsingList" />
       </list>
     </recent_temporary>
   </component>

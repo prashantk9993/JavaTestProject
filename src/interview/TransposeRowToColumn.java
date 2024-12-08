@@ -12,7 +12,7 @@ public class TransposeRowToColumn {
 			}
 			System.out.println();
 		}
-		System.out.println("==============Transpose rows tcoulmns ==============================");
+		System.out.println("==============Transpose rows to columns ==============================");
 		
 		// transpose rows to columns
 		

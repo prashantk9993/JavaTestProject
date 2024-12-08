@@ -18,7 +18,8 @@ public class ConncurrentModiExceptionIteratorRemoveUsingList {
         while(itr.hasNext()){
             int val = itr.next();
             if(val==3){
-                values.remove(val);
+               // values.remove(val);
+              //  values.add(10); -- exception occured when trying to add also
             }
         }
         System.out.println("Values 3 removed using iterator :::::"+values);

@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/dsa/RemoveDuplicateFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/MaximumMinimumArrayDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/collection/ConncurrentModiExceptionIteratorRemoveUsingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/collection/ConncurrentModiExceptionIteratorRemoveUsingList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/TransposeRowToColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/TransposeRowToColumn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/ConncurrentModiExceptionIteratorRemoveUsingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ConncurrentModiExceptionIteratorRemoveUsingList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dsa/FindMissingNumberInArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/FindMissingNumberInArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/TransposeRowToColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/TransposeRowToColumn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,7 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicateFromArray">
+  <component name="RunManager" selected="Application.MaximumMinimumArrayDemo">
     <configuration name="ConncurrentModiExceptionIteratorRemoveUsingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.ConncurrentModiExceptionIteratorRemoveUsingList" />
       <module name="JavaTestProject" />
@@ -82,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.ForLoopRemove" />
+    <configuration name="MaximumMinimumArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.MaximumMinimumArrayDemo" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumMinimumArrayDemo" />
         <item itemvalue="Application.RemoveDuplicateFromArray" />
         <item itemvalue="Application.FindMissingNumberInArrays" />
         <item itemvalue="Application.TransposeRowToColumn" />
         <item itemvalue="Application.ConncurrentModiExceptionIteratorRemoveUsingList" />
-        <item itemvalue="Application.ForLoopRemove" />
       </list>
     </recent_temporary>
   </component>

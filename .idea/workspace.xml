@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/dsa/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/centralbank/FavoriteMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FindDistinctCharacterString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SingletonDesignPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,13 +60,13 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseArray">
-    <configuration name="FindPairOfSumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.FindPairOfSumNumbers" />
+  <component name="RunManager" selected="Application.FavoriteMovie">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.BubbleSort" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumMinimumArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.MaximumMinimumArrayDemo" />
+    <configuration name="CountCharsInWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.CountCharsInWords" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.RemoveDuplicateFromArray" />
+    <configuration name="FavoriteMovie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="centralbank.FavoriteMovie" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="centralbank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.ReverseArray" />
+    <configuration name="FindDistinctCharacterString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.FindDistinctCharacterString" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArrayUsingQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.SortArrayUsingQuickSort" />
+    <configuration name="TransposeRowToColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.TransposeRowToColumn" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.SortArrayUsingQuickSort" />
-        <item itemvalue="Application.FindPairOfSumNumbers" />
-        <item itemvalue="Application.MaximumMinimumArrayDemo" />
-        <item itemvalue="Application.RemoveDuplicateFromArray" />
+        <item itemvalue="Application.FavoriteMovie" />
+        <item itemvalue="Application.FindDistinctCharacterString" />
+        <item itemvalue="Application.TransposeRowToColumn" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.CountCharsInWords" />
       </list>
     </recent_temporary>
   </component>

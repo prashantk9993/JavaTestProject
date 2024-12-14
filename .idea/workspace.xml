@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/CountNumberOfWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/CountNumberOfWordsFromFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/FindValidBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/GetMaxOfSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/IPLTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/ReadValuesfromConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/centralbank/ReadInputFromConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/centralbank/FavoriteMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/centralbank/FavoriteMovie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +58,7 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadValuesfromConsole">
+  <component name="RunManager" selected="Application.ReadInputFromConsole">
     <configuration name="CountNumberOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa.CountNumberOfWords" />
       <module name="JavaTestProject" />
@@ -105,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IPLTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.IPLTable" />
+    <configuration name="ReadInputFromConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="centralbank.ReadInputFromConsole" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="centralbank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadInputFromConsole" />
         <item itemvalue="Application.ReadValuesfromConsole" />
         <item itemvalue="Application.FindValidBrackets" />
         <item itemvalue="Application.CountNumberOfWordsFromFile" />
         <item itemvalue="Application.CountNumberOfWords" />
-        <item itemvalue="Application.IPLTable" />
       </list>
     </recent_temporary>
   </component>

@@ -9,6 +9,10 @@ public class FavoriteMovie {
         List<String> moview  = Arrays.asList("Uri 4", "Kabirsingh 5", "Gullyboy 5","Kesari 4", "Kalank 1","Lukachuppi 2",
                 "Badla 3", "Uri 5","Kabirsingh 3", "Gullyboy 4","Kalank 2", "Lukachuppi 2", "Badla 2","Uri 4", "Gullyboy 4");
 
+
+
+        Arrays.stream(new String("ythdfbjhsd ").split(""));
+
         Map<String,Long> mapCount = moview.stream().map(x->x.split(" " ))
                 .collect(Collectors.groupingBy( x-> String.valueOf(x[0]),Collectors.counting()));
 

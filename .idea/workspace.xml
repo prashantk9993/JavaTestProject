@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/centralbank/FavoriteMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/FindDistinctCharacterString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/SingletonDesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/CountNumberOfWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/CountNumberOfWordsFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/FindValidBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/GetMaxOfSubArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/IPLTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/ReadValuesfromConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/centralbank/FavoriteMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/centralbank/FavoriteMovie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +65,13 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FavoriteMovie">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.BubbleSort" />
+  <component name="RunManager" selected="Application.ReadValuesfromConsole">
+    <configuration name="CountNumberOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.CountNumberOfWords" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountCharsInWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.CountCharsInWords" />
+    <configuration name="CountNumberOfWordsFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.CountNumberOfWordsFromFile" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteMovie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="centralbank.FavoriteMovie" />
+    <configuration name="FindValidBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.FindValidBrackets" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="centralbank.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDistinctCharacterString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.FindDistinctCharacterString" />
+    <configuration name="IPLTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.IPLTable" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransposeRowToColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.TransposeRowToColumn" />
+    <configuration name="ReadValuesfromConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.ReadValuesfromConsole" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FavoriteMovie" />
-        <item itemvalue="Application.FindDistinctCharacterString" />
-        <item itemvalue="Application.TransposeRowToColumn" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.CountCharsInWords" />
+        <item itemvalue="Application.ReadValuesfromConsole" />
+        <item itemvalue="Application.FindValidBrackets" />
+        <item itemvalue="Application.CountNumberOfWordsFromFile" />
+        <item itemvalue="Application.CountNumberOfWords" />
+        <item itemvalue="Application.IPLTable" />
       </list>
     </recent_temporary>
   </component>
@@ -169,5 +174,36 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;test commit&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;test commit&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dsa/IPLTable.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/interview/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/FindCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/SingletonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ThrowExceptionInFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SingletonDoubleCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/centralbank/ReadInputFromConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/centralbank/ReadInputFromConsole.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,26 +58,13 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThrowExceptionInFinally">
+  <component name="RunManager" selected="Application.TestSingleton">
     <configuration name="FindCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.FindCount" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindValidBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.FindValidBrackets" />
-      <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.TestSingleton" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThrowExceptionInFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.ThrowExceptionInFinally" />
       <module name="JavaTestProject" />
@@ -131,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSingleton" />
         <item itemvalue="Application.ThrowExceptionInFinally" />
         <item itemvalue="Application.FindCount" />
         <item itemvalue="Application.ReadInputFromConsole" />
         <item itemvalue="Application.ReadValuesfromConsole" />
-        <item itemvalue="Application.FindValidBrackets" />
       </list>
     </recent_temporary>
   </component>

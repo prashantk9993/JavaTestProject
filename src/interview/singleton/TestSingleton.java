@@ -1,4 +1,4 @@
-package interview;
+package interview.singleton;
 
 public class TestSingleton {
 

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/interview/SingletonDoubleCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/SingletonDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/singleton/SingletonDoubleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/singleton/TestSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,9 @@
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="interview.singleton" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="collection" />
     </key>
@@ -64,7 +67,7 @@
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="interview.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.TestSingleton" />
+      <option name="MAIN_CLASS_NAME" value="interview.singleton.TestSingleton" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="interview.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,7 +119,7 @@
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="interview.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

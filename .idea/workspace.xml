@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/interview/singleton/SingletonEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/singleton/SingletonLazy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/singleton/SingletonThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/adaptor/Charger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/adaptor/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/adaptor/Iphone5SCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/adaptor/Iphone5STo6SAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/adaptor/Iphone6SCharger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/adaptor/TestAdaptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/SingletonDoubleCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/TestSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/singleton/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/singleton/TestSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,25 +40,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2owIJgQyUVqnJoRHqsUF4UCyhqm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.21149425" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/prashantkhunte/Documents/workspace/java/JavaTestProject&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="interview.singleton" />
@@ -66,7 +66,7 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSingleton">
+  <component name="RunManager" selected="Application.TestAdaptor">
     <configuration name="FindCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.FindCount" />
       <module name="JavaTestProject" />
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadValuesfromConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.ReadValuesfromConsole" />
+    <configuration name="TestAdaptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.adaptor.TestAdaptor" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="interview.adaptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAdaptor" />
         <item itemvalue="Application.TestSingleton" />
         <item itemvalue="Application.ThrowExceptionInFinally" />
         <item itemvalue="Application.FindCount" />
         <item itemvalue="Application.ReadInputFromConsole" />
-        <item itemvalue="Application.ReadValuesfromConsole" />
       </list>
     </recent_temporary>
   </component>

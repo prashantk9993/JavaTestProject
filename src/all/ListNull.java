@@ -13,5 +13,8 @@ public class ListNull {
                 .forEach(System.out::println);
 
          numbers.stream().collect(Collectors.groupingBy(ch->ch , Collectors.counting()));
+
+         numbers.stream().collect(Collectors.groupingBy(ch->ch , Collectors.counting())).forEach((x,y)->System.out.println(x+" "+y));
+         numbers.stream().collect(Collectors.groupingBy(ch->ch , Collectors.counting())).forEach((x,y)->System.out.println(x+" "+y));
     }
 }

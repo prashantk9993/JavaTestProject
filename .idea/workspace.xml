@@ -5,9 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/interview/CountCharOutsideNumeric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/PrintCharNotRepeated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SubArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/ConcurrentHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ParellelStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/TestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/BillPughSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/TestBillPugh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ArrayDemo2Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/CountOutsideNumberGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/CurrencyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FindCount123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FindDistinctCharacterString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FruitCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/HashMapWithNoEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ReduceSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ReverseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SortEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Test456.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/TestDemo123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/factory/FactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ConcurrentHashMapVSSynchronizedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ExecutorServiceFutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ExecutorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/GenericMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/LambdaVsAnonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/MApVsFlatmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/StreamVsParellelStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/all/ListNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/all/ListNull.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/all/SeconfHighestNumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/all/SeconfHighestNumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/collection/ConncurrentModiExceptionIteratorRemoveUsingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/collection/ConncurrentModiExceptionIteratorRemoveUsingList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/all/ListNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/ListNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/all/SeconfHighestNumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/SeconfHighestNumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/ConncurrentModiExceptionIteratorRemoveUsingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ConncurrentModiExceptionIteratorRemoveUsingList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +83,70 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2owIJgQyUVqnJoRHqsUF4UCyhqm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractDemo.executor": "Run",
+    "Application.ArrayDemo.executor": "Run",
+    "Application.ArrayDemo2Interview.executor": "Run",
+    "Application.ArrayListDemo.executor": "Run",
+    "Application.AtomicDemo.executor": "Run",
+    "Application.ConcurrentHashMapVSSynchronizedMap.executor": "Run",
+    "Application.ConncurrentModiExceptionIteratorRemoveUsingList.executor": "Run",
     "Application.CountCharOutsideNumeric.executor": "Run",
+    "Application.CountCharsInWords.executor": "Run",
+    "Application.CountDownLatchDemo.executor": "Run",
+    "Application.CountNumberOfWords.executor": "Run",
+    "Application.CountOutsideNumberGroups.executor": "Run",
+    "Application.CyclicBarrierDemo.executor": "Run",
+    "Application.DqueueDemo.executor": "Run",
+    "Application.ExchangerDemo.executor": "Run",
+    "Application.ExecutorServiceFutureTest.executor": "Run",
+    "Application.ExecutorServiceTest.executor": "Run",
+    "Application.FactoryDemo.executor": "Run",
+    "Application.FindCount.executor": "Run",
+    "Application.FindCount123.executor": "Run",
+    "Application.FindDistinctCharacterString.executor": "Run",
+    "Application.FindDistinctCharacterString2.executor": "Run",
+    "Application.FruitCount.executor": "Run",
+    "Application.GenericMethodReference.executor": "Run",
+    "Application.HashMapWithNoEquals.executor": "Run",
+    "Application.HashSetDemo.executor": "Run",
+    "Application.HashSetDemo2.executor": "Run",
+    "Application.LambdaVsAnonClass.executor": "Run",
+    "Application.ListNull.executor": "Run",
+    "Application.MApVsFlatmap.executor": "Run",
+    "Application.ParellelStreamDemo1.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
     "Application.PrintCharNotRepeated.executor": "Run",
+    "Application.ReduceSum.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.ReverseDemo.executor": "Run",
+    "Application.SeconfHighestNumer.executor": "Run",
+    "Application.SortEmployee.executor": "Run",
+    "Application.SortEmployees.executor": "Run",
+    "Application.StreamDemo.executor": "Run",
+    "Application.StreamDemo1.executor": "Run",
+    "Application.StreamDemo4.executor": "Run",
+    "Application.StreamVsParellelStream.executor": "Run",
+    "Application.SubArrayDemo.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test456.executor": "Run",
+    "Application.Test5.executor": "Run",
     "Application.TestAdaptor.executor": "Run",
+    "Application.TestBillPugh.executor": "Run",
+    "Application.TestDemo123.executor": "Run",
+    "Application.TestFactory.executor": "Run",
     "Application.TestSingleton.executor": "Run",
+    "Application.ThrowExceptionInFinally.executor": "Run",
+    "Application.TransposeRowToColumn.executor": "Run",
+    "Application.ValidateMultiParenthesisUSingStack.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -62,16 +159,17 @@
       <recent name="interview.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interview" />
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountCharOutsideNumeric">
-    <configuration name="CountCharOutsideNumeric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.CountCharOutsideNumeric" />
+  <component name="RunManager" selected="Application.TestBillPugh">
+    <configuration name="CountNumberOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.CountNumberOfWords" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintCharNotRepeated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.PrintCharNotRepeated" />
+    <configuration name="SeconfHighestNumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.SeconfHighestNumer" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="all.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAdaptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.adaptor.TestAdaptor" />
+    <configuration name="SortEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.SortEmployee" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.adaptor.*" />
+          <option name="PATTERN" value="all.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.singleton.TestSingleton" />
+    <configuration name="TestBillPugh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.creational.singleton.TestBillPugh" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.singleton.*" />
+          <option name="PATTERN" value="designpatterns.creational.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowExceptionInFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.ThrowExceptionInFinally" />
+    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.creational.factory.TestFactory" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.singleton.*" />
+          <option name="PATTERN" value="designpatterns.creational.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountCharOutsideNumeric" />
-        <item itemvalue="Application.PrintCharNotRepeated" />
-        <item itemvalue="Application.TestAdaptor" />
-        <item itemvalue="Application.TestSingleton" />
-        <item itemvalue="Application.ThrowExceptionInFinally" />
+        <item itemvalue="Application.TestBillPugh" />
+        <item itemvalue="Application.TestFactory" />
+        <item itemvalue="Application.CountNumberOfWords" />
+        <item itemvalue="Application.SortEmployee" />
+        <item itemvalue="Application.SeconfHighestNumer" />
       </list>
     </recent_temporary>
   </component>

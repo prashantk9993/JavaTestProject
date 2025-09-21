@@ -5,52 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/SubArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/all/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/ParellelStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/factory/TestFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/BillPughSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/TestBillPugh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ArrayDemo2Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/CountOutsideNumberGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/CurrencyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/FindCount123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/FindDistinctCharacterString2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/FruitCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/HashMapWithNoEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ReduceSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ReverseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/SortEmployees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Test456.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/TestDemo123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/factory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/factory/FactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/factory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/factory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/factory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/factory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/ConcurrentHashMapVSSynchronizedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/ExecutorServiceFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/ExecutorServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/GenericMethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/LambdaVsAnonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/MApVsFlatmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/StreamVsParellelStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalsoftTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/GroupStringByLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/PeekMisuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/PrimeNumberDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/PrimeNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/PrimitiveStreamTerminalOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/ReduceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/RegExpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/RegExpr5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/ShortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/StreamDistinctDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/StreamGenerateIterate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/StreamNullValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/StreamOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/SumAverageCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/builder/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/builder/TestBuilderPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/BasicCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/CarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/DecoratorPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/LuxuryCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/SportsCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decorator/BasicCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decorator/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decorator/CarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decorator/DecoratorPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decorator/LuxuryCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decorator/SportsCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/AuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/BankingFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/ClienMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/facade/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/BinarySearchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/BubbleSortExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/employee.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/LongestWordProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/PrefixSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/CalsoftTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/CapgeminiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ConsecutiveCharCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/GlobalLogicFindOccuranceOfDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/HackerRankAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/IntArrayStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/MainInAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/MainInStaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/StreamVSIntStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/TitleCaseStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/ZensarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/cs/CoordinateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/cs/NearestCoordinateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/cs/NearestNeighborService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/cs/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/multithreading/BlockingQueueProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/multithreading/ExtendThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/multithreading/ImplCallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/multithreading/ImplRunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/multithreading/UsingExecutorFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithread/sample/ECommerceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithread/sample/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithread/sample/OrderProcessingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/CPUCoreCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/CheckPrimeNumber1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/CheckPrimeNumberVIMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/CreateListUSingSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ExecutorWithBothCallableRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/FindCountOfDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/FindFirstFindAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/FindHighestSalryEmployeeInDepartments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/FindMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/GroupingByFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/GroupingByFuncAndCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/GroupingByFuncAndCollector2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/HandleNullsInStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ListIteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/MethodRefForGenericMathod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/PartitionEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/PartitionPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/PartitionScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/PartitioningByDeomo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/StreamInfiniteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/StreamPitfalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/SubstringsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/TerminalCountOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ToMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/AverageSalaryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/temp1/CollectAndThenExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/temp1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/temp1/SynechronInterview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/all/ListNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/all/ListNull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/all/SeconfHighestNumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/all/SeconfHighestNumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/collection/ConncurrentModiExceptionIteratorRemoveUsingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/collection/ConncurrentModiExceptionIteratorRemoveUsingList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/all/ListNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/ListNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/all/SeconfHighestNumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/SeconfHighestNumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/ConncurrentModiExceptionIteratorRemoveUsingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ConncurrentModiExceptionIteratorRemoveUsingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/all/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/all/PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/all/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +123,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "prashantk9993"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -76,6 +137,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/prashantk9993/JavaTestProject.git",
+    "accountId": "fe412571-d934-4bb0-9b22-2b2456488ebf"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -97,56 +164,129 @@
     "Application.ArrayDemo2Interview.executor": "Run",
     "Application.ArrayListDemo.executor": "Run",
     "Application.AtomicDemo.executor": "Run",
+    "Application.AverageSalaryExample.executor": "Run",
+    "Application.BinarySearchExample.executor": "Run",
+    "Application.BlockingQueueProducerConsumer.executor": "Run",
+    "Application.BubbleSortExample.executor": "Run",
+    "Application.CPUCoreCount.executor": "Run",
+    "Application.CalsoftTest.executor": "Run",
+    "Application.CamgeminiTest.executor": "Run",
+    "Application.CheckPrimeNumber1.executor": "Run",
+    "Application.CheckPrimeNumberVIMP.executor": "Run",
+    "Application.ClienMain.executor": "Run",
+    "Application.CollectAndThenExample.executor": "Run",
     "Application.ConcurrentHashMapVSSynchronizedMap.executor": "Run",
     "Application.ConncurrentModiExceptionIteratorRemoveUsingList.executor": "Run",
+    "Application.ConsecutiveCharCount.executor": "Run",
     "Application.CountCharOutsideNumeric.executor": "Run",
     "Application.CountCharsInWords.executor": "Run",
     "Application.CountDownLatchDemo.executor": "Run",
     "Application.CountNumberOfWords.executor": "Run",
+    "Application.CountNumberOfWordsFromFile.executor": "Run",
     "Application.CountOutsideNumberGroups.executor": "Run",
+    "Application.CreateListUSingSupplier.executor": "Run",
     "Application.CyclicBarrierDemo.executor": "Run",
+    "Application.DecoratorPatternTest.executor": "Run",
     "Application.DqueueDemo.executor": "Run",
+    "Application.ECommerceApplication.executor": "Run",
     "Application.ExchangerDemo.executor": "Run",
     "Application.ExecutorServiceFutureTest.executor": "Run",
     "Application.ExecutorServiceTest.executor": "Run",
+    "Application.ExecutorWithBothCallableRunnable.executor": "Run",
+    "Application.ExtendThreadDemo.executor": "Run",
     "Application.FactoryDemo.executor": "Run",
     "Application.FindCount.executor": "Run",
     "Application.FindCount123.executor": "Run",
+    "Application.FindCountOfDigit.executor": "Run",
     "Application.FindDistinctCharacterString.executor": "Run",
     "Application.FindDistinctCharacterString2.executor": "Run",
+    "Application.FindFirstFindAny.executor": "Run",
+    "Application.FindHighestSalryEmployeeInDepartments.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.FindMissingNumberInArrays.executor": "Run",
+    "Application.FindPairOfSumNumbers.executor": "Run",
+    "Application.FindValidBrackets.executor": "Run",
     "Application.FruitCount.executor": "Run",
     "Application.GenericMethodReference.executor": "Run",
+    "Application.GlobalLogicFindOccuranceOfDigit.executor": "Run",
+    "Application.GroupStringByLength.executor": "Run",
+    "Application.GroupingByFunc.executor": "Run",
+    "Application.GroupingByFuncAndCollector.executor": "Run",
+    "Application.GroupingByFuncAndCollector2.executor": "Run",
+    "Application.HackerRankAnagram.executor": "Run",
+    "Application.HandleNullsInStream.executor": "Run",
     "Application.HashMapWithNoEquals.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
     "Application.HashSetDemo2.executor": "Run",
+    "Application.ImplCallableDemo.executor": "Run",
+    "Application.ImplRunnableDemo.executor": "Run",
+    "Application.IntArrayStats.executor": "Run",
     "Application.LambdaVsAnonClass.executor": "Run",
+    "Application.ListIteratorExample.executor": "Run",
     "Application.ListNull.executor": "Run",
+    "Application.LongestWordProblem.executor": "Run",
     "Application.MApVsFlatmap.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainInAbstract.executor": "Debug",
+    "Application.MainInStaticBlock.executor": "Run",
+    "Application.MethodRefForGenericMathod.executor": "Run",
     "Application.ParellelStreamDemo1.executor": "Run",
+    "Application.PartitionEmployees.executor": "Run",
+    "Application.PartitionPrimes.executor": "Run",
+    "Application.PartitionScores.executor": "Run",
+    "Application.PartitioningByDeomo.executor": "Run",
+    "Application.PeekMisuse.executor": "Run",
+    "Application.PrefixSearch.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
+    "Application.PrimeNumberDemo.executor": "Run",
+    "Application.PrimeNumberTest.executor": "Run",
+    "Application.PrimitiveStreamTerminalOperations.executor": "Run",
     "Application.PrintCharNotRepeated.executor": "Run",
+    "Application.ReduceDemo.executor": "Run",
     "Application.ReduceSum.executor": "Run",
+    "Application.RegExpr.executor": "Run",
+    "Application.RegExpr5.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseDemo.executor": "Run",
     "Application.SeconfHighestNumer.executor": "Run",
+    "Application.ShortDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.SortEmployee.executor": "Run",
     "Application.SortEmployees.executor": "Run",
     "Application.StreamDemo.executor": "Run",
     "Application.StreamDemo1.executor": "Run",
     "Application.StreamDemo4.executor": "Run",
+    "Application.StreamDistinctDemo.executor": "Run",
+    "Application.StreamGenerateIterate.executor": "Run",
+    "Application.StreamInfiniteDemo.executor": "Run",
+    "Application.StreamNullValue.executor": "Run",
+    "Application.StreamOf.executor": "Run",
+    "Application.StreamPitfalls.executor": "Run",
+    "Application.StreamVSIntStream.executor": "Run",
     "Application.StreamVsParellelStream.executor": "Run",
     "Application.SubArrayDemo.executor": "Run",
+    "Application.SubstringsExample.executor": "Run",
+    "Application.SumAverageCount.executor": "Run",
+    "Application.SynechronInterview.executor": "Run",
+    "Application.TerminalCountOperation.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test456.executor": "Run",
     "Application.Test5.executor": "Run",
     "Application.TestAdaptor.executor": "Run",
     "Application.TestBillPugh.executor": "Run",
+    "Application.TestBuilderPattern.executor": "Run",
     "Application.TestDemo123.executor": "Run",
     "Application.TestFactory.executor": "Run",
+    "Application.TestNumbers.executor": "Run",
     "Application.TestSingleton.executor": "Run",
     "Application.ThrowExceptionInFinally.executor": "Run",
+    "Application.TitleCaseStream.executor": "Run",
+    "Application.ToMapExample.executor": "Run",
     "Application.TransposeRowToColumn.executor": "Run",
+    "Application.UsingExecutorFramework.executor": "Run",
     "Application.ValidateMultiParenthesisUSingStack.executor": "Run",
+    "Application.ZensarTest.executor": "Run",
+    "Application.interview.CalsoftTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -156,6 +296,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="interview" />
       <recent name="interview.singleton" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -163,13 +304,13 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBillPugh">
-    <configuration name="CountNumberOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.CountNumberOfWords" />
+  <component name="RunManager" selected="Application.ECommerceApplication">
+    <configuration name="ECommerceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithread.sample.ECommerceApplication" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="multithread.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,8 +318,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeconfHighestNumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="all.SeconfHighestNumer" />
+    <configuration name="ExecutorWithBothCallableRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.ExecutorWithBothCallableRunnable" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.Main" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegExpr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.RegExpr" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
@@ -190,38 +357,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="all.SortEmployee" />
+    <configuration name="RegExpr5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.RegExpr5" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="all.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBillPugh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.creational.singleton.TestBillPugh" />
-      <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.creational.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.creational.factory.TestFactory" />
-      <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.creational.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestBillPugh" />
-        <item itemvalue="Application.TestFactory" />
-        <item itemvalue="Application.CountNumberOfWords" />
-        <item itemvalue="Application.SortEmployee" />
-        <item itemvalue="Application.SeconfHighestNumer" />
+        <item itemvalue="Application.ECommerceApplication" />
+        <item itemvalue="Application.ExecutorWithBothCallableRunnable" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RegExpr" />
+        <item itemvalue="Application.RegExpr5" />
       </list>
     </recent_temporary>
   </component>
@@ -282,24 +423,24 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/practice/TerminalCountOperation.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/interview/GlobalLogicFindOccuranceOfDigit.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/CalsoftTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dsa/FindValidBrackets.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/CalsoftTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

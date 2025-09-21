@@ -1,0 +1,323 @@
+Basics of Lambda Expressions
+1.	What is a lambda expression in Java?
+2.	What are the three parts of a lambda expression?
+3.	How does a lambda differ from an anonymous inner class?
+4.	What is a functional interface?
+5.	Name 5 built-in functional interfaces in Java.
+6.	What is the @FunctionalInterface annotation?
+7.	Can a lambda expression throw an exception?
+8.	What is the type of a lambda expression?
+9.	How do you use a lambda with the Runnable interface?
+10.	What is the target type of a lambda?
+
+Functional Interfaces
+11.	What is Predicate<T>? Write an example.
+12.	What is Function<T, R>? How is it different from Predicate?
+13.	What is Consumer<T> used for?
+14.	What is Supplier<T>? When would you use it?
+15.	What is BiFunction<T, U, R>?
+16.	What is UnaryOperator<T>?
+17.	What is the difference between Function and UnaryOperator?
+18.	What is BinaryOperator<T>?
+19.	What is the purpose of BiPredicate<T, U>?
+20.	What are primitive functional interfaces like IntPredicate?
+
+Method References
+21.	What is a method reference?
+22.	What are the four types of method references?
+23.	Give an example of a static method reference.
+24.	Give an example of an instance method reference.
+25.	What is a constructor reference?
+26.	How do you reference an instance method of an arbitrary object?
+27.	When would you use ClassName::new?
+28.	Can you use method references with generic methods?
+29.	What happens if you use a method reference for a void method?
+30.	How does System.out::println work as a method reference?
+
+Streams Basics
+31.	What is a Stream in Java?
+32.	How is a Stream different from a Collection?
+33.	What are the two types of Stream operations?
+34.	What is the difference between intermediate and terminal operations?
+35.	Name 5 intermediate Stream operations.
+36.	Name 5 terminal Stream operations.
+37.	What is lazy evaluation in Streams?
+38.	How do you create a Stream from a List?
+39.	How do you create an empty Stream?
+40.	What is Stream.of() used for?
+
+Stream Operations (Intermediate)
+41.	What does filter() do? Write an example.
+42.	What is the purpose of map()? How is it different from flatMap()?
+43.	What does flatMap() do? Give an example.
+44.	How does distinct() work?
+45.	What is sorted()? How do you sort in reverse order?
+46.	What is peek() used for?
+47.	What is the difference between limit() and skip()?
+48.	How does takeWhile() differ from filter() (Java 9+)?
+49.	How does dropWhile() work (Java 9+)?
+50.	What is the purpose of boxed() in a Stream?
+
+Stream Operations (Terminal)
+51.	What does forEach() do?
+52.	How does collect() work? What is Collectors.toList()?
+53.	What is the purpose of toArray()?
+54.	How does reduce() work? Write an example.
+55.	What is the difference between reduce() and collect()?
+56.	What does count() return?
+57.	What are anyMatch(), allMatch(), and noneMatch()?
+58.	How does findFirst() differ from findAny()?
+59.	What is min() and max()? How do you use them?
+60.	What is the purpose of iterator() in Streams?
+
+Advanced Stream Concepts
+61.	What is a parallel Stream? How do you create one?
+62.	What are the risks of using parallel Streams?
+63.	How do you concatenate two Streams?
+64.	What is the difference between Stream.generate() and Stream.iterate()?
+65.	How would you convert a Stream to a Map?
+66.	How do you group elements using Collectors.groupingBy()?
+67.	What is partitioning in Streams?
+68.	How do you join Strings using Collectors.joining()?
+69.	What is Collectors.mapping() used for?
+70.	How do you handle null values in a Stream?
+
+Primitive Streams
+71.	What are IntStream, LongStream, and DoubleStream?
+72.	How do you convert a Stream<Integer> to IntStream?
+73.	What is the purpose of mapToInt()?
+74.	How do you calculate the sum of an IntStream?
+75.	What is average() in primitive Streams?
+76.	How do you create a range of numbers with IntStream?
+77.	What is summaryStatistics()?
+78.	How do you convert an IntStream back to a Stream<Integer>?
+79.	What is the difference between map() and mapToObj()?
+80.	How do you handle overflow in IntStream operations?
+
+Common Stream Patterns
+81.	How would you find the most frequent element in a Stream?
+82.	How do you check if a List is sorted using Streams?
+83.	How would you reverse a List using Streams?
+84.	How do you flatten a List<List<String>>?
+85.	How would you partition a List into sublists of size N?
+86.	How do you find the intersection of two Lists?
+87.	How would you remove duplicates from a List?
+88.	How do you merge two Maps using Streams?
+89.	How would you implement a custom Collector?
+90.	How do you handle checked exceptions in Streams?
+
+Performance & Best Practices
+91.	When should you avoid Streams?
+92.	Are Streams always faster than loops?
+93.	What is the big-O complexity of Stream.sorted()?
+94.	How does parallelStream() improve performance?
+95.	What are the drawbacks of using parallelStream()?
+96.	How do you debug a Stream pipeline?
+97.	What is the "peek anti-pattern"?
+98.	How do you avoid NullPointerException in Streams?
+99.	When should you use forEach() vs. for loops?
+100.	What are common pitfalls when using Streams?
+
+Tricky Scenarios & Edge Cases
+101.	What happens if you reuse a Stream?
+102.	How do you handle infinite Streams?
+103.	What is the difference between Stream.empty() and null?
+104.	How do you sort a Stream with null values?
+105.	What happens if a lambda modifies external state?
+
+Bonus: Coding Challenges
+106.	Write a lambda to check if a String is palindrome.
+107.	Use reduce() to concatenate all Strings in a List.
+108.	Filter a List of Employees by salary > 50000.
+109.	Group a List of words by their length.
+110.	Find the longest String in a List using Streams.
+
+
+
+
+
+Here’s a comprehensive list of 100+ advanced Java interview questions focused on Collections and the Executor framework, categorized for depth and clarity:
+
+Java Collections (Core Concepts)
+1.	What is the root interface of the Java Collections Framework?
+→ Collection (except Map hierarchy).
+2.	Difference between Collection and Collections.
+→ Collection is an interface; Collections is a utility class.
+3.	Explain the hierarchy of List, Set, and Queue.
+→ All extend Collection; List (ordered), Set (unique), Queue (FIFO).
+4.	What is the default capacity of ArrayList?
+→ 10 (increases by 50% when full).
+5.	How does LinkedList differ from ArrayList?
+→ LinkedList uses doubly-linked nodes; ArrayList uses a dynamic array.
+6.	When would you use Vector over ArrayList?
+→ Rarely (legacy code); Vector is thread-safe but slower.
+7.	What is the load factor in HashMap?
+→ 0.75 (default). Determines when resizing occurs.
+8.	How does HashSet ensure uniqueness?
+→ Uses HashMap internally (elements as keys).
+9.	Difference between HashMap and Hashtable.
+→ HashMap allows null keys/values; Hashtable is synchronized.
+10.	What is LinkedHashMap?
+→ HashMap with insertion-order iteration.
+
+Advanced Collections
+11.	How does ConcurrentHashMap achieve thread-safety?
+→ Uses segmented locks (Java 7) or CAS + synchronized (Java 8+).
+12.	What is a WeakHashMap?
+→ Entries are GC’d when keys are no longer referenced strongly.
+13.	Explain CopyOnWriteArrayList.
+→ Thread-safe; creates a new array on modification.
+14.	What is PriorityQueue?
+→ A heap-based queue ordered by natural order or Comparator.
+15.	Difference between Comparable and Comparator.
+→ Comparable (natural order); Comparator (custom order).
+16.	How does TreeSet maintain order?
+→ Uses a TreeMap (Red-Black Tree).
+17.	What is Collections.synchronizedList()?
+→ Wraps a List with synchronized methods.
+18.	Why should you override equals() and hashCode() together?
+→ To maintain the contract (equal objects must have equal hash codes).
+19.	What is the fail-fast behavior in iterators?
+→ Throws ConcurrentModificationException if collection is modified during iteration.
+20.	What is EnumSet?
+→ A high-performance Set implementation for enums.
+
+Executor Framework (Basics)
+21.	What is the Executor framework?
+→ A higher-level replacement for raw threads (Runnable, Thread).
+22.	Difference between Executor and ExecutorService.
+→ Executor executes tasks; ExecutorService adds lifecycle management.
+23.	What is ThreadPoolExecutor?
+→ A customizable thread pool implementation.
+24.	How do you create a fixed-size thread pool?
+java
+Copy
+Download
+ExecutorService executor = Executors.newFixedThreadPool(10);
+25.	What is a CachedThreadPool?
+→ Creates threads on demand; reuses idle threads.
+26.	How does ScheduledExecutorService work?
+→ Supports delayed or periodic task execution.
+27.	What is Future?
+→ Represents the result of an asynchronous computation.
+28.	How do you submit a task and get its result?
+java
+Copy
+Download
+Future<String> future = executor.submit(() -> "Result");
+String result = future.get();
+29.	What is Callable? How is it different from Runnable?
+→ Callable returns a value and can throw exceptions.
+30.	How do you shut down an ExecutorService?
+→ executor.shutdown() (graceful) or executor.shutdownNow() (forceful).
+
+Advanced Executor Framework
+31.	What is ForkJoinPool?
+→ A thread pool for divide-and-conquer tasks (e.g., RecursiveTask).
+32.	Difference between ForkJoinPool and ThreadPoolExecutor.
+→ ForkJoinPool uses work-stealing; optimized for recursive tasks.
+33.	What is CompletableFuture?
+→ A Future with async chaining and composition support.
+34.	How do you chain CompletableFuture tasks?
+java
+Copy
+Download
+CompletableFuture.supplyAsync(() -> "Hello")
+                .thenApply(s -> s + " World");
+35.	What is ThreadLocal?
+→ Provides thread-local variables.
+36.	How do you handle exceptions in CompletableFuture?
+→ Use handle() or exceptionally().
+37.	What is RejectedExecutionHandler?
+→ Defines behavior when a task is rejected (e.g., queue full).
+38.	How do you set a custom ThreadFactory?
+java
+Copy
+Download
+ExecutorService executor = Executors.newFixedThreadPool(10, new CustomThreadFactory());
+39.	What is Executors.newWorkStealingPool()?
+→ Uses all available processors for parallel tasks (Java 8+).
+40.	How do you schedule a task to run periodically?
+java
+Copy
+Download
+scheduledExecutor.scheduleAtFixedRate(task, initialDelay, period, TimeUnit.SECONDS);
+
+Concurrency & Synchronization
+41.	What is ConcurrentModificationException? How to avoid it?
+→ Occurs when a collection is modified while iterating. Fix: Use Iterator.remove() or ConcurrentHashMap.
+42.	Difference between synchronizedMap and ConcurrentHashMap.
+→ synchronizedMap locks the entire map; ConcurrentHashMap uses segment-level locks.
+43.	What is BlockingQueue? Name implementations.
+→ A thread-safe queue (ArrayBlockingQueue, LinkedBlockingQueue).
+44.	How does CountDownLatch work?
+→ Waits for N tasks to complete before proceeding.
+45.	What is CyclicBarrier?
+→ Waits for N threads to reach a common point before continuing.
+46.	Difference between CountDownLatch and CyclicBarrier.
+→ CountDownLatch is one-time; CyclicBarrier is reusable.
+47.	What is Phaser?
+→ A reusable synchronization barrier (Java 7+).
+48.	How does Semaphore work?
+→ Controls access to a resource with a fixed number of permits.
+49.	What is Exchanger?
+→ Swaps data between two threads at a synchronization point.
+50.	What is StampedLock?
+→ Optimistic locking for read-heavy scenarios (Java 8+).
+
+Performance & Best Practices
+51.	When would you choose ArrayList over LinkedList?
+→ Frequent random access; less memory overhead.
+52.	Why is HashMap not thread-safe?
+→ Race conditions during resizing can cause infinite loops.
+53.	How do you make a List immutable?
+java
+Copy
+Download
+List<String> immutableList = Collections.unmodifiableList(list);
+54.	What is the equals() and hashCode() contract?
+→ Equal objects must have equal hash codes.
+55.	How do you sort a Map by values?
+java
+Copy
+Download
+map.entrySet().stream()
+   .sorted(Map.Entry.comparingByValue())
+   .collect(Collectors.toList());
+56.	What is the diamond operator (<>)?
+→ Type inference for generics (Java 7+).
+57.	How do you avoid memory leaks with ThreadLocal?
+→ Always call remove() after use.
+58.	What is the volatile keyword?
+→ Ensures visibility of changes across threads (no atomicity).
+59.	When would you use ConcurrentSkipListMap?
+→ When you need a thread-safe NavigableMap.
+60.	How do you measure thread pool performance?
+→ Monitor queue size, active threads, and rejection rates.
+
+Scenario-Based Questions
+61.	How would you implement a cache with eviction?
+→ Use LinkedHashMap with removeEldestEntry().
+62.	Design a thread-safe producer-consumer system.
+→ Use BlockingQueue with ThreadPoolExecutor.
+63.	How would you merge two sorted Lists efficiently?
+→ Use a priority queue (O(n log k)).
+64.	Implement a rate limiter using Semaphore.
+→ Acquire/release permits per time window.
+65.	How do you find duplicates in a List?
+java
+Copy
+Download
+list.stream().filter(i -> Collections.frequency(list, i) > 1).distinct().toList();
+
+Bonus: Tricky Questions
+66.	Why is String a popular HashMap key?
+→ Immutable; cached hashCode().
+67.	What happens if you modify a key in a HashMap?
+→ The entry becomes unreachable (hash bucket mismatch).
+68.	Can you store null in TreeMap?
+→ No (NullPointerException on comparison).
+69.	How does IdentityHashMap differ from HashMap?
+→ Uses == instead of equals() for keys.
+70.	What is Collections.EMPTY_LIST?
+→ An immutable empty list singleton.

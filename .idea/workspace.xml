@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/codility/ArrayCyclicRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codility/BinaryGap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/TaskSchedulerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/UBSInterview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/ubsHackerRankQuery.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/ArraysMethodsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/TaskSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/FindMaxEmpSalaryWOGroupingBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/CollectorAndThenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/CollectorsMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/all/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +85,8 @@
     "Application.CheckPrimeNumberVIMP.executor": "Run",
     "Application.ClienMain.executor": "Run",
     "Application.CollectAndThenExample.executor": "Run",
+    "Application.CollectorAndThenDemo.executor": "Run",
+    "Application.CollectorsMethods.executor": "Run",
     "Application.ConcurrentHashMapVSSynchronizedMap.executor": "Run",
     "Application.ConncurrentModiExceptionIteratorRemoveUsingList.executor": "Run",
     "Application.ConsecutiveCharCount.executor": "Run",
@@ -115,6 +114,7 @@
     "Application.FindDistinctCharacterString2.executor": "Run",
     "Application.FindFirstFindAny.executor": "Run",
     "Application.FindHighestSalryEmployeeInDepartments.executor": "Run",
+    "Application.FindMaxEmpSalaryWOGroupingBy.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
     "Application.FindMissingNumberInArrays.executor": "Run",
     "Application.FindPairOfSumNumbers.executor": "Run",
@@ -220,7 +220,7 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayCyclicRotation">
+  <component name="RunManager" selected="Application.FindMaxEmpSalaryWOGroupingBy">
     <configuration name="ArrayCyclicRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codility.ArrayCyclicRotation" />
       <module name="JavaTestProject" />
@@ -234,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysMethodsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.ArraysMethodsDemo" />
+    <configuration name="CollectorAndThenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.CollectorAndThenDemo" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.BinaryGap" />
+    <configuration name="CollectorsMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.CollectorsMethods" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codility.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.Solution" />
+    <configuration name="FindMaxEmpSalaryWOGroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.FindMaxEmpSalaryWOGroupingBy" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,26 +273,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.TaskSchedulerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.TaskSchedulerDemo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMaxEmpSalaryWOGroupingBy" />
+        <item itemvalue="Application.CollectorAndThenDemo" />
+        <item itemvalue="Application.CollectorsMethods" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrayCyclicRotation" />
-        <item itemvalue="Application.BinaryGap" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ArraysMethodsDemo" />
-        <item itemvalue="Application.practice.TaskSchedulerDemo" />
       </list>
     </recent_temporary>
   </component>

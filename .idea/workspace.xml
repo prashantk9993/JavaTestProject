@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/stream/FindMaxEmpSalaryWOGroupingBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/CollectorAndThenDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/CollectorsMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CACITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KeiserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/all/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/Employee2.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/Employee2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/FindMaxEmpSalaryWOGroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/FindMaxEmpSalaryWOGroupingBy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,7 @@
     "Application.BlockingQueueProducerConsumer.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.BubbleSortExample.executor": "Run",
+    "Application.CACITest.executor": "Run",
     "Application.CPUCoreCount.executor": "Run",
     "Application.CalsoftTest.executor": "Run",
     "Application.CamgeminiTest.executor": "Run",
@@ -134,6 +134,7 @@
     "Application.ImplCallableDemo.executor": "Run",
     "Application.ImplRunnableDemo.executor": "Run",
     "Application.IntArrayStats.executor": "Run",
+    "Application.KeiserTest.executor": "Run",
     "Application.LambdaVsAnonClass.executor": "Run",
     "Application.ListIteratorExample.executor": "Run",
     "Application.ListNull.executor": "Run",
@@ -220,16 +221,10 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMaxEmpSalaryWOGroupingBy">
-    <configuration name="ArrayCyclicRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.ArrayCyclicRotation" />
+  <component name="RunManager" selected="Application.CACITest">
+    <configuration name="CACITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CACITest" />
       <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,8 +268,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="KeiserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KeiserTest" />
       <module name="JavaTestProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CACITest" />
+        <item itemvalue="Application.KeiserTest" />
         <item itemvalue="Application.FindMaxEmpSalaryWOGroupingBy" />
         <item itemvalue="Application.CollectorAndThenDemo" />
         <item itemvalue="Application.CollectorsMethods" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ArrayCyclicRotation" />
       </list>
     </recent_temporary>
   </component>

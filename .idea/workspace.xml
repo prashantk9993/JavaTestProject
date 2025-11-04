@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/CACITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KeiserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/deep/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/Employee2.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/Employee2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/FindMaxEmpSalaryWOGroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/FindMaxEmpSalaryWOGroupingBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/CACITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/Employee4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/KeiserTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +169,7 @@
     "Application.Solution.executor": "Debug",
     "Application.SortEmployee.executor": "Run",
     "Application.SortEmployees.executor": "Run",
+    "Application.StreamCreation.executor": "Run",
     "Application.StreamDemo.executor": "Run",
     "Application.StreamDemo1.executor": "Run",
     "Application.StreamDemo4.executor": "Run",
@@ -212,6 +215,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="interview" />
       <recent name="interview.singleton" />
@@ -221,9 +227,9 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CACITest">
+  <component name="RunManager" selected="Application.StreamCreation">
     <configuration name="CACITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CACITest" />
+      <option name="MAIN_CLASS_NAME" value="interview.CACITest" />
       <module name="JavaTestProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,19 +237,6 @@
     </configuration>
     <configuration name="CollectorAndThenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.collectors.CollectorAndThenDemo" />
-      <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectorsMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.CollectorsMethods" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
@@ -269,19 +262,32 @@
       </method>
     </configuration>
     <configuration name="KeiserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KeiserTest" />
+      <option name="MAIN_CLASS_NAME" value="interview.KeiserTest" />
       <module name="JavaTestProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.deep.StreamCreation" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.deep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamCreation" />
         <item itemvalue="Application.CACITest" />
         <item itemvalue="Application.KeiserTest" />
         <item itemvalue="Application.FindMaxEmpSalaryWOGroupingBy" />
         <item itemvalue="Application.CollectorAndThenDemo" />
-        <item itemvalue="Application.CollectorsMethods" />
       </list>
     </recent_temporary>
   </component>

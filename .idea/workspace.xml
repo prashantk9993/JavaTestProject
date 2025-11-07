@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/deep/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/CACITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/Employee4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/KeiserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/CACITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/CACITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/Employee4.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/Employee4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/deep/StreamCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/deep/StreamCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/CACITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/CACITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/deep/StreamCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/deep/StreamCreation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +227,7 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamCreation">
+  <component name="RunManager" selected="Application.CACITest">
     <configuration name="CACITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.CACITest" />
       <module name="JavaTestProject" />
@@ -283,8 +283,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamCreation" />
         <item itemvalue="Application.CACITest" />
+        <item itemvalue="Application.StreamCreation" />
         <item itemvalue="Application.KeiserTest" />
         <item itemvalue="Application.FindMaxEmpSalaryWOGroupingBy" />
         <item itemvalue="Application.CollectorAndThenDemo" />
@@ -377,6 +377,16 @@
           <url>file://$PROJECT_DIR$/src/practice/Solution.java</url>
           <line>36</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stream/deep/StreamCreation.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stream/deep/StreamCreation.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

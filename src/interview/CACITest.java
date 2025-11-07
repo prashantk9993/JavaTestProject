@@ -28,6 +28,21 @@ public class CACITest {
                 ));
 
         res.forEach((e,f) -> System.out.println(e + " "+ f));
+
+        //--------------
+        //1. question 1. print all mobile numbers
+        lst.stream().forEach(e-> System.out.print("All phone numbers:::"+e.phone));
+
+        List<Integer> phonesNos =lst.stream().flatMap(e-> e.phone.stream()).toList();
+        System.out.print("All phone numbers:::"+phonesNos);
+
+        //2. separate numbers into even and odd
+        Map<String,List<Integer>> evenOdd = phonesNos.stream().collect(Collectors.groupingBy(no ->
+                no%2==0 ? "EVEN" : "ODD"));
+
+        evenOdd.forEach((x,y) -> System.out.print(x +" ::: "+y));
+
+        //--------------
     }
 }
 

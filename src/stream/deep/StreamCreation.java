@@ -5,8 +5,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -74,5 +77,52 @@ public class StreamCreation {
         Stream<String> str1 = Arrays.stream("Prashant".split(""));
         str1.forEach(e -> System.out.print(e+" "));
         System.out.println();
+
+        //-------------------
+        int[] arra = IntStream.range(1,10).toArray();
+        System.out.println(arra.length);
+        for (int i=0 ; i < arra.length; i++){
+            System.out.print(arra[i]+" ");
+        }
+
+        List<Integer> lst2 = IntStream.rangeClosed(1,10)
+                .boxed()
+                .toList(); // new improvement, older is .collect(Collectors.toList())
+        System.out.println(lst2);
+
+        //---------VIMP----------
+
+        Map<String,List<Integer>>  map1 = IntStream.rangeClosed(123,200)
+                .boxed()
+                .collect(Collectors.groupingBy(num -> num%2==0 ? "Even" : "Odd"));
+        map1.forEach((a,b) -> System.out.println(a+" "+b));
+
+        //------------Filter -------
+
+        List<String> names = Arrays.asList("John", "Jane", "Adam", "Eve");
+        List<String> fnames = names.stream().filter(n -> n.startsWith("J")).toList();
+        System.out.println(fnames);
+        //-------------------
+
+        List<List<String>> nestedList = Arrays.asList(
+                Arrays.asList("a", "b", "c"),
+                Arrays.asList("d", "e", "f")
+        );
+        System.out.println(nestedList);
+        List<String> flatList = nestedList.stream().flatMap(List::stream).toList();
+        System.out.println(flatList);
+        //-------------------
+        List<String> names2 = Arrays.asList("John", "Jane", "Adam", "Eve");
+        List<String> names3 = names2.stream().sorted().toList();
+        System.out.println(names3);
+        List<String> names4 = names2.stream().sorted(Comparator.reverseOrder()).toList();
+        System.out.println(names4);
+        //-------------------
+        //-------------------
+        //-------------------
+
+        List<Integer> numbers = Arrays.asList(1, 2, 2, 3, 3, 3, 4);
+        List<Integer> dist = numbers.stream().distinct().toList();
+        System.out.println(dist);
     }
 }

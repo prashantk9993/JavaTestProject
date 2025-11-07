@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamCollectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamJoining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamMethods2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/CACITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/CACITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/Employee4.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/interview/Employee4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/deep/StreamCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/deep/StreamCreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/CACITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/CACITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/deep/StreamCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/deep/StreamCreation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +173,8 @@
     "Application.StreamDistinctDemo.executor": "Run",
     "Application.StreamGenerateIterate.executor": "Run",
     "Application.StreamInfiniteDemo.executor": "Run",
+    "Application.StreamJoining.executor": "Run",
+    "Application.StreamMethods2.executor": "Run",
     "Application.StreamNullValue.executor": "Run",
     "Application.StreamOf.executor": "Run",
     "Application.StreamPitfalls.executor": "Run",
@@ -227,36 +226,10 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CACITest">
+  <component name="RunManager" selected="Application.StreamJoining">
     <configuration name="CACITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview.CACITest" />
       <module name="JavaTestProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectorAndThenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.CollectorAndThenDemo" />
-      <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMaxEmpSalaryWOGroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.FindMaxEmpSalaryWOGroupingBy" />
-      <module name="JavaTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,13 +254,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamJoining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.deep.StreamJoining" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.deep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.deep.StreamMethods2" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.deep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamJoining" />
+        <item itemvalue="Application.StreamMethods2" />
         <item itemvalue="Application.CACITest" />
         <item itemvalue="Application.StreamCreation" />
         <item itemvalue="Application.KeiserTest" />
-        <item itemvalue="Application.FindMaxEmpSalaryWOGroupingBy" />
-        <item itemvalue="Application.CollectorAndThenDemo" />
       </list>
     </recent_temporary>
   </component>

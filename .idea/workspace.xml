@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7086f4a4-a52b-44f0-b00b-11b7c979423f" name="Changes" comment="&quot;test commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamCollectors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamJoining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamMethods2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestInstanceOfNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestIntegerEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestListRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestNegativeSizeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all/TestPlusPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/DoubleCheckLockingSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/EagerInitializedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/LazyInitializedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/StaticBlockSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/singleton/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/litmus/AutomatedParking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithread/countdownlatch/BankingBatchProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithread/cyclicbarrier/BankingEODReconciliation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithread/cyclicbarrier/CyclicBarrierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/deep/StreamGrouping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/deep/StreamJoining.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/JavaTestProject/stream/deep/StreamJoining.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +86,10 @@
     "Application.ArrayListDemo.executor": "Run",
     "Application.ArraysMethodsDemo.executor": "Run",
     "Application.AtomicDemo.executor": "Run",
+    "Application.AutomatedParking.executor": "Run",
     "Application.AverageSalaryExample.executor": "Run",
+    "Application.BankingBatchProcessing.executor": "Run",
+    "Application.BankingEODReconciliation.executor": "Run",
     "Application.BinaryGap.executor": "Run",
     "Application.BinarySearchExample.executor": "Run",
     "Application.BlockingQueueProducerConsumer.executor": "Run",
@@ -97,9 +117,11 @@
     "Application.CountOutsideNumberGroups.executor": "Run",
     "Application.CreateListUSingSupplier.executor": "Run",
     "Application.CyclicBarrierDemo.executor": "Run",
+    "Application.CyclicBarrierExample.executor": "Run",
     "Application.DecoratorPatternTest.executor": "Run",
     "Application.DqueueDemo.executor": "Run",
     "Application.ECommerceApplication.executor": "Run",
+    "Application.ExceptionTest.executor": "Run",
     "Application.ExchangerDemo.executor": "Run",
     "Application.ExecutorServiceFutureTest.executor": "Run",
     "Application.ExecutorServiceTest.executor": "Run",
@@ -180,6 +202,7 @@
     "Application.StreamPitfalls.executor": "Run",
     "Application.StreamVSIntStream.executor": "Run",
     "Application.StreamVsParellelStream.executor": "Run",
+    "Application.StringTest.executor": "Run",
     "Application.SubArrayDemo.executor": "Run",
     "Application.SubstringsExample.executor": "Run",
     "Application.SumAverageCount.executor": "Run",
@@ -191,10 +214,17 @@
     "Application.Test5.executor": "Run",
     "Application.TestAdaptor.executor": "Run",
     "Application.TestBillPugh.executor": "Run",
+    "Application.TestBreak.executor": "Run",
     "Application.TestBuilderPattern.executor": "Run",
     "Application.TestDemo123.executor": "Run",
     "Application.TestFactory.executor": "Run",
+    "Application.TestInstanceOfNull.executor": "Run",
+    "Application.TestIntegerEquals.executor": "Run",
+    "Application.TestListRemove.executor": "Run",
+    "Application.TestNegativeSizeArray.executor": "Run",
     "Application.TestNumbers.executor": "Run",
+    "Application.TestPlus.executor": "Run",
+    "Application.TestPlusPlus.executor": "Run",
     "Application.TestSingleton.executor": "Run",
     "Application.ThrowExceptionInFinally.executor": "Run",
     "Application.TitleCaseStream.executor": "Run",
@@ -226,27 +256,13 @@
       <recent name="collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamJoining">
-    <configuration name="CACITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.CACITest" />
-      <module name="JavaTestProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeiserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.KeiserTest" />
-      <module name="JavaTestProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.deep.StreamCreation" />
+  <component name="RunManager" selected="Application.AutomatedParking">
+    <configuration name="AutomatedParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.litmus.AutomatedParking" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.deep.*" />
+          <option name="PATTERN" value="interview.litmus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamJoining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.deep.StreamJoining" />
+    <configuration name="TestBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.TestBreak" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.deep.*" />
+          <option name="PATTERN" value="all.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +283,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.deep.StreamMethods2" />
+    <configuration name="TestIntegerEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.TestIntegerEquals" />
       <module name="JavaTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.deep.*" />
+          <option name="PATTERN" value="all.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNegativeSizeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.TestNegativeSizeArray" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="all.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="all.TestPlus" />
+      <module name="JavaTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="all.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamJoining" />
-        <item itemvalue="Application.StreamMethods2" />
-        <item itemvalue="Application.CACITest" />
-        <item itemvalue="Application.StreamCreation" />
-        <item itemvalue="Application.KeiserTest" />
+        <item itemvalue="Application.AutomatedParking" />
+        <item itemvalue="Application.TestBreak" />
+        <item itemvalue="Application.TestNegativeSizeArray" />
+        <item itemvalue="Application.TestIntegerEquals" />
+        <item itemvalue="Application.TestPlus" />
       </list>
     </recent_temporary>
   </component>
@@ -386,6 +428,36 @@
           <url>file://$PROJECT_DIR$/src/stream/deep/StreamCreation.java</url>
           <line>83</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/multithread/countdownlatch/BankingBatchProcessing.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/litmus/AutomatedParking.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/litmus/AutomatedParking.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/litmus/AutomatedParking.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/litmus/AutomatedParking.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/litmus/AutomatedParking.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
